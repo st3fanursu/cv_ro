@@ -9,6 +9,9 @@ istagram: hi.im.steff
 github: st3fanursu
 linkedin: www.linkedin.com/in/ștefan-ursu-8065442b0
 date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::latexcv:
+    theme: classic
 ---
 
 ```{r setup, include=FALSE}
